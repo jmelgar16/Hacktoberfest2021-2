@@ -9,4 +9,4 @@ const quotes = ['Originality is the fine art of remebering what you hear but for
 function newQuote() {
    var randomNumber = Math.floor(Math.random() * (quotes.length));
    document.getElementById('Display').innerHTML = quotes[randomNumber];
-}
+};
